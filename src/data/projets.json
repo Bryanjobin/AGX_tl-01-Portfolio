@@ -1,0 +1,62 @@
+[
+    {
+        "name": "AGT_tl-02-GRILLE LEGO",
+        "cover_url": "/src/img/photos/projets/AGT_tl-02-Grille Lego/AGT_tl-02-Grille Lego_cover.png",
+        "contexte" : "Projet d'école",
+        "description" : "Dans le cadre du cours 'Réalisation d'un site Web', j'ai dû reproduire, en utilisant grid, la page d'accueil du site Lego version PC et mobile, avec le contenu de mon choix. J'ai également dû créer une maquette de cette page sur Figma.",
+        "images_url" : [
+            "/src/img/photos/projets/AGT_tl-02-Grille Lego/AGT_tl-02-Grille Lego_cover.png",
+            "/src/img/photos/projets/AGT_tl-02-Grille Lego/AGT_tl-02-Grille Lego_2.png"
+        ],
+        "technologies" : [
+            "HTML", 
+            "CSS", 
+            "JS", 
+            "FIGMA"
+        ]
+    },
+    {
+        "name": "AGT_tl-01-CSS3",
+        "cover_url": "/src/img/photos/projets/AGT_tl-01-CSS3/AGT_tl-01-CSS3_cover.png",
+        "contexte" : "Projet d'école",
+        "description" : "Dans le cadre du cours 'Réalisation d'un site Web', j'ai dû concevoir un microsite esthétique présentant des composants introduits en CSS3, classés par ordre alphabétique. Ce microsite comportait une navigation permettant à l'utilisateur de se déplacer d'une lettre à l'autre, ainsi qu'un bouton pour revenir en haut de la page, le tout accompagné d'animations personnalisées.",
+        "images_url" : [
+            "/src/img/photos/projets/AGT_tl-01-CSS3/AGT_tl-01-CSS3_cover.png",
+            "/src/img/photos/projets/AGT_tl-01-CSS3/AGT_tl-01-CSS3_2.png"
+        ],
+        "technologies" : [
+            "HTML", 
+            "CSS", 
+            "JS", 
+            "SASS",
+            "FIGMA"
+        ]
+    },
+    {
+        "name": "Design challenge: E-commerce",
+        "cover_url": "/src/img/photos/projets/Design challenge - e-commerce UI/Design challenge - e-commerce UI_cover.png",
+        "contexte" : "Projet d'école",
+        "description" : "Dans le cadre du cours 'Design Graphique appliqué II', j'ai été chargé de concevoir sur Figma une interface de produit destinée à un site de type 'e-commerce'. Le projet devait inclure un wireframe de basse fidélité, un wireframe de haute fidélité, ainsi que la maquette finale.",
+        "images_url" : [
+            "/src/img/photos/projets/Design challenge - e-commerce UI/Design challenge - e-commerce UI_1.png",
+            "/src/img/photos/projets/Design challenge - e-commerce UI/Design challenge - e-commerce UI_2.png",
+            "/src/img/photos/projets/Design challenge - e-commerce UI/Design challenge - e-commerce UI_3.png",
+            "/src/img/photos/projets/Design challenge - e-commerce UI/Design challenge - e-commerce UI_cover.png"
+        ],
+        "technologies" : [
+            "FIGMA"
+        ]
+    },
+    {
+        "name": "Design challenge: Formulaire",
+        "cover_url": "/src/img/photos/projets/Design challenge - Formulaire UI/Design challenge - Formulaire UI_cover.png",
+        "contexte" : "Projet d'école",
+        "description" : "Dans le cadre du cours 'Design Graphique appliqué II', ma tâche consistait à concevoir sur Figma le design d'un formulaire pour la version PC. Ce formulaire comprenait différents composants tels qu'un champ texte, des boutons radios, une case à cocher et un bouton.",
+        "images_url" : [
+            "/src/img/photos/projets/Design challenge - Formulaire UI/Design challenge - Formulaire UI_cover.png"
+        ],
+        "technologies" : [
+            "FIGMA"
+        ]
+    }
+]

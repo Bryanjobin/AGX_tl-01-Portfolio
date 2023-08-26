@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Devanagari:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="/dist/output.css" rel="stylesheet">
+    <script src="/src/js/main.js" defer></script>
+    <script src="/src/js/projets.js" defer></script>
+    <title>Bryan Jobin - Portfolio</title>
+</head>
+<body class="dark:bg-gray-950 mx-2 pc:mx-10vw pcXl:mx-20vw">
+    <header class="header mt-5 pc:h-min">
+        <div class="header-container flex justify-between">
+            <h1 class="text-3xl font-medium dark:text-white">Bryan Jobin</h1>
+            <button class="pc:hidden" ><span class="burgerBtn text-3xl material-symbols-outlined dark:text-white">menu</span></button>
+            <div class="header-container-reseaux hidden pc:flex gap-1">
+                <a target="_blank" class="flex items-center" href="https://github.com/Bryanjobin" aria-label="GitHub">
+                    <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="fill-gray-700 dark:fill-gray-400" fill-rule="evenodd" clip-rule="evenodd" d="M16.2887 0.328613C7.75021 0.328613 0.847656 7.28206 0.847656 15.8844C0.847656 22.7607 5.27036 28.5814 11.4058 30.6415C12.1729 30.7964 12.4539 30.3068 12.4539 29.895C12.4539 29.5343 12.4286 28.2982 12.4286 27.0102C8.13328 27.9376 7.23882 25.1559 7.23882 25.1559C6.54853 23.353 5.52574 22.8897 5.52574 22.8897C4.11988 21.9368 5.62815 21.9368 5.62815 21.9368C7.18761 22.0398 8.00591 23.5335 8.00591 23.5335C9.38617 25.9027 11.6103 25.2333 12.5051 24.8212C12.6328 23.8167 13.0421 23.1214 13.4767 22.7351C10.0509 22.3745 6.44644 21.0353 6.44644 15.0601C6.44644 13.3603 7.05961 11.9696 8.03119 10.888C7.8779 10.5018 7.34091 8.90474 8.1848 6.76718C8.1848 6.76718 9.48857 6.35504 12.4283 8.36395C13.6869 8.02344 14.9849 7.85022 16.2887 7.84876C17.5925 7.84876 18.9215 8.02923 20.1488 8.36395C23.0889 6.35504 24.3926 6.76718 24.3926 6.76718C25.2365 8.90474 24.6992 10.5018 24.5459 10.888C25.5431 11.9696 26.131 13.3603 26.131 15.0601C26.131 21.0353 22.5266 22.3486 19.0752 22.7351C19.6378 23.2244 20.1232 24.1514 20.1232 25.6195C20.1232 27.7056 20.0979 29.3798 20.0979 29.8946C20.0979 30.3068 20.3792 30.7964 21.146 30.6418C27.2815 28.5811 31.7042 22.7607 31.7042 15.8844C31.7295 7.28206 24.8016 0.328613 16.2887 0.328613Z"/>
+                    </svg>
+                </a>
+                <a target="_blank" class="flex items-center" href="https://www.linkedin.com/in/bryanjobin/" aria-label="LinkedIn">
+                    <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="fill-gray-700 dark:fill-gray-400" d="M24.8111 0.0717773H6.81139C3.2616 0.0717773 0.382935 2.95044 0.382935 6.50024V24.4999C0.382935 28.0497 3.2616 30.9284 6.81139 30.9284H24.8111C28.3622 30.9284 31.2395 28.0497 31.2395 24.4999V6.50024C31.2395 2.95044 28.3622 0.0717773 24.8111 0.0717773ZM10.6685 24.4999H6.81139V10.3573H10.6685V24.4999ZM8.73993 8.72705C7.49795 8.72705 6.48997 7.71136 6.48997 6.45909C6.48997 5.20683 7.49795 4.19113 8.73993 4.19113C9.98191 4.19113 10.9899 5.20683 10.9899 6.45909C10.9899 7.71136 9.98319 8.72705 8.73993 8.72705ZM26.0968 24.4999H22.2397V17.2949C22.2397 12.9647 17.0969 13.2925 17.0969 17.2949V24.4999H13.2399V10.3573H17.0969V12.6266C18.8918 9.30176 26.0968 9.05619 26.0968 15.8099V24.4999Z"/>
+                    </svg>                        
+                </a>
+            </div>
+        </div>
+        <div class="header-menu pc:block pc:h-min">
+            <ul class=" header-menu-list text-2xl pc:text-lg text-center pc:flex pc:gap-x-4 font-normal text-gray-700 dark:text-gray-400 ">
+                <li class="mt-36 pc:mt-1"><a class="hover:font-medium hover:text-black dark:hover:text-white focus:text-black dark:focus:text-white focus:font-medium focus:text-2xl" href="#sectionInfo">Qui suis-je ?</a></li>
+                <li class="mt-10 pc:mt-1"><a class="hover:font-medium hover:text-black dark:hover:text-white focus:text-black dark:focus:text-white focus:font-medium focus:text-2xl" href="#sectionProjets">Projets</a></li>
+                <li class="mt-10 pc:mt-1"><a class="hover:font-medium hover:text-black dark:hover:text-white focus:text-black dark:focus:text-white focus:font-medium focus:text-2xl" href="#sectionContact">Contact</a></li>
+            </ul> 
+            <div class="header-container-reseaux-mobile flex justify-center pt-16 pc:hidden gap-x-4">
+                <a target="_blank" class="flex items-center" href="https://github.com/Bryanjobin" aria-label="GitHub">
+                    <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="fill-gray-700 dark:fill-gray-400" fill-rule="evenodd" clip-rule="evenodd" d="M16.2887 0.328613C7.75021 0.328613 0.847656 7.28206 0.847656 15.8844C0.847656 22.7607 5.27036 28.5814 11.4058 30.6415C12.1729 30.7964 12.4539 30.3068 12.4539 29.895C12.4539 29.5343 12.4286 28.2982 12.4286 27.0102C8.13328 27.9376 7.23882 25.1559 7.23882 25.1559C6.54853 23.353 5.52574 22.8897 5.52574 22.8897C4.11988 21.9368 5.62815 21.9368 5.62815 21.9368C7.18761 22.0398 8.00591 23.5335 8.00591 23.5335C9.38617 25.9027 11.6103 25.2333 12.5051 24.8212C12.6328 23.8167 13.0421 23.1214 13.4767 22.7351C10.0509 22.3745 6.44644 21.0353 6.44644 15.0601C6.44644 13.3603 7.05961 11.9696 8.03119 10.888C7.8779 10.5018 7.34091 8.90474 8.1848 6.76718C8.1848 6.76718 9.48857 6.35504 12.4283 8.36395C13.6869 8.02344 14.9849 7.85022 16.2887 7.84876C17.5925 7.84876 18.9215 8.02923 20.1488 8.36395C23.0889 6.35504 24.3926 6.76718 24.3926 6.76718C25.2365 8.90474 24.6992 10.5018 24.5459 10.888C25.5431 11.9696 26.131 13.3603 26.131 15.0601C26.131 21.0353 22.5266 22.3486 19.0752 22.7351C19.6378 23.2244 20.1232 24.1514 20.1232 25.6195C20.1232 27.7056 20.0979 29.3798 20.0979 29.8946C20.0979 30.3068 20.3792 30.7964 21.146 30.6418C27.2815 28.5811 31.7042 22.7607 31.7042 15.8844C31.7295 7.28206 24.8016 0.328613 16.2887 0.328613Z"/>
+                    </svg>
+                </a>
+                <a target="_blank" class="flex items-center" href="https://www.linkedin.com/in/bryanjobin/" aria-label="LinkedIn">
+                    <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path class="fill-gray-700 dark:fill-gray-400" d="M24.8111 0.0717773H6.81139C3.2616 0.0717773 0.382935 2.95044 0.382935 6.50024V24.4999C0.382935 28.0497 3.2616 30.9284 6.81139 30.9284H24.8111C28.3622 30.9284 31.2395 28.0497 31.2395 24.4999V6.50024C31.2395 2.95044 28.3622 0.0717773 24.8111 0.0717773ZM10.6685 24.4999H6.81139V10.3573H10.6685V24.4999ZM8.73993 8.72705C7.49795 8.72705 6.48997 7.71136 6.48997 6.45909C6.48997 5.20683 7.49795 4.19113 8.73993 4.19113C9.98191 4.19113 10.9899 5.20683 10.9899 6.45909C10.9899 7.71136 9.98319 8.72705 8.73993 8.72705ZM26.0968 24.4999H22.2397V17.2949C22.2397 12.9647 17.0969 13.2925 17.0969 17.2949V24.4999H13.2399V10.3573H17.0969V12.6266C18.8918 9.30176 26.0968 9.05619 26.0968 15.8099V24.4999Z"/>
+                    </svg>                        
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="main pc:mt-10 mb-20">
+        <section id="sectionInfo" class="sectionInfo">
+            <div class="sectionInfoPresentation flex flex-col items-center pc:flex-row pc:items-start">
+                <div class="sectionInfoPresentationPhoto mt-6 pc:mt-0 pc:mr-10">
+                    <img src="/src/img/photos/PhotoPrésentation.png" alt="Photo de Bryan Jobin" class="rounded-full min-w-fit drop-shadow-md border-2 border-gray-700 dark:border-gray-400">
+                </div>
+                <div class="sectionInfoPresentationTexte mt-10 pc:mt-0">
+                    <h2 class="text-2xl font-bold dark:text-white">Qui suis-je ?</h2>
+                    <div class="text-gray-800 dark:text-gray-400 mt-2">
+                        <p class="">
+                            <span class="font-medium text-black dark:text-white"></span>
+                            Je m'appelle <span class="font-medium text-black dark:text-white">Bryan Jobin</span>, j'ai <span class="font-medium text-black dark:text-white">27 ans</span> et je suis de 
+                            <span class="font-medium text-black dark:text-white">Québec</span>. J'aime la <span class="font-medium text-black dark:text-white">musique</span>, l'<span class="font-medium text-black dark:text-white">informatique</span>
+                            et <span class="font-medium text-black dark:text-white">voyager</span>, je me décris comme quelqu'un de <span class="font-medium text-black dark:text-white">calme</span>,
+                            <span class="font-medium text-black dark:text-white">résilient</span> et <span class="font-medium text-black dark:text-white">persévérant</span>. Bien que je sois quelqu'un d'assez timide et réservé,
+                            je ne refuse jamais de tendre la main pour donner un coup de main. Je dirais que les <span class="font-medium text-black dark:text-white">valeurs les plus importantes chez moi</span>  
+                            sont l'<span class="font-medium text-black dark:text-white">entraide</span>, la <span class="font-medium text-black dark:text-white">communication</span> et le 
+                            <span class="font-medium text-black dark:text-white">respect</span> , car sans respect, il n'y a pas de communication, et sans communication, il n'y a pas d'entraide.
+                        </p>
+                        <p class="mt-5 font-medium text-black dark:text-white">
+                            Je suis un étudiant qui recherche actuellement un stage orienté dans le design et/ou la programmation afin d'approfondir mes connaissances de base acquises.
+                        </p>
+                        <p class="mt-5">
+                            À long terme, j'aimerais allier mes idées à la programmation ainsi qu'au design afin d'améliorer et de développer de nouvelles méthodes de travail qui contribueront au monde de demain.
+                        </p>
+                    </div>
+                </div>                
+            </div>
+            <div class="sectionInfoExp mt-10 pc:flex">
+                <div class="sectionInfoExpText pc:w-1/2">
+                    <h2 class="text-2xl font-bold dark:text-white">Mon expérience</h2>
+                    <div class="mt-2 text-gray-800 dark:text-gray-400 pc:pr-5">
+                        <p>
+                            Je suis présentement <span class="font-medium text-black dark:text-white">étudiant</span> au <span class="font-medium text-black dark:text-white">Cégep Limoilou</span>  dans la 
+                            <span class="font-medium text-black dark:text-white">formation continue</span> "<span class="font-medium text-black dark:text-white">Production en médias interactifs</span>". Dans le cadre de cette formation, j'ai exploré plusieurs <span class="font-medium text-black dark:text-white">aspects</span> diversifiés que touche le <span class="font-medium text-black dark:text-white">domaine du web</span>. 
+                            De la <span class="font-medium text-black dark:text-white">programmation</span> au <span class="font-medium text-black dark:text-white">design</span>, en passant par la <span class="font-medium text-black dark:text-white">gestion de projet</span>, le <span class="font-medium text-black dark:text-white">marketing</span>, l'<span class="font-medium text-black dark:text-white">animation</span> et l'<span class="font-medium text-black dark:text-white">audiovisuelle</span>. 
+                        </p>
+                        <p class="pt-5">
+                            J’ai également par le passé développé de l’expérience dans plusieurs autres domaines différents et je me suis toujours senti interpellé par les méthodes de travail, autant sur l’aspect de la sécurité que l’aspect de la productivité. 
+                        </p>
+                    </div>
+
+                </div>
+                <div class="sectionInfoExpCon pc:mt-0 mt-10 pc:w-1/2">
+                    <h2 class="text-2xl font-bold dark:text-white">Mes connaissances</h2>
+                    <ul class="flex gap-2 flex-wrap text-xl font-bold mt-2">
+                        <li class="bg-gray-700 text-white p-1 dark:bg-gray-400 dark:text-gray-950">HTML</li>
+                        <li class="bg-gray-700 text-white p-1 dark:bg-gray-400 dark:text-gray-950">CSS</li>
+                        <li class="bg-gray-700 text-white p-1 dark:bg-gray-400 dark:text-gray-950">JavaScript</li>
+                        <li class="bg-gray-700 text-white p-1 dark:bg-gray-400 dark:text-gray-950">SASS</li>
+                        <li class="bg-gray-700 text-white p-1 dark:bg-gray-400 dark:text-gray-950">GitHub</li>
+                        <li class="bg-gray-700 text-white p-1 dark:bg-gray-400 dark:text-gray-950">Bootstrap</li>
+                        <li class="bg-gray-700 text-white p-1 dark:bg-gray-400 dark:text-gray-950">Tailwind</li>
+                        <li class="bg-gray-700 text-white p-1 dark:bg-gray-400 dark:text-gray-950">Wordpress</li>
+                        <li class="bg-gray-700 text-white p-1 dark:bg-gray-400 dark:text-gray-950">PHP</li>
+                        <li class="bg-gray-700 text-white p-1 dark:bg-gray-400 dark:text-gray-950">Figma</li>
+                        <li class="bg-gray-700 text-white p-1 dark:bg-gray-400 dark:text-gray-950">Photoshop</li>
+                        <li class="bg-gray-700 text-white p-1 dark:bg-gray-400 dark:text-gray-950">Illustrator</li>
+                        <li class="bg-gray-700 text-white p-1 dark:bg-gray-400 dark:text-gray-950">MAMP</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="sectionProjets" class="sectionProjets mt-10">
+            <h2 class="text-2xl font-bold dark:text-white">Mes projets</h2>
+            <div class="sectionProjetsTableau mt-2 flex flex-wrap justify-start gap-2">
+                
+            </div>
+        </section>
+
+        <section id="sectionContact" class="sectionContact mt-10 border-t-[1px] border-gray-700 dark:border-gray-400">
+            <div class="justify-start mt-4">
+                <div class="text-center">
+                    <h3 class="text-xl font-medium dark:text-white">E-mail:</h3>
+                    <a class="text-xl text-gray-700 dark:text-gray-400" href="mailto:Bryanjobin@gmail.com">Bryanjobin@gmail.com</a>
+                </div>
+                <div class="mt-4">
+                    <h3 class="text-xl font-medium dark:text-white text-center">Réseaux Sociaux:</h3>
+                    <div class="flex justify-center pt-2">
+                        <a target="_blank" class="flex items-center pr-1" href="https://github.com/Bryanjobin" aria-label="GitHub">
+                            <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="fill-gray-700 dark:fill-gray-400" fill-rule="evenodd" clip-rule="evenodd" d="M16.2887 0.328613C7.75021 0.328613 0.847656 7.28206 0.847656 15.8844C0.847656 22.7607 5.27036 28.5814 11.4058 30.6415C12.1729 30.7964 12.4539 30.3068 12.4539 29.895C12.4539 29.5343 12.4286 28.2982 12.4286 27.0102C8.13328 27.9376 7.23882 25.1559 7.23882 25.1559C6.54853 23.353 5.52574 22.8897 5.52574 22.8897C4.11988 21.9368 5.62815 21.9368 5.62815 21.9368C7.18761 22.0398 8.00591 23.5335 8.00591 23.5335C9.38617 25.9027 11.6103 25.2333 12.5051 24.8212C12.6328 23.8167 13.0421 23.1214 13.4767 22.7351C10.0509 22.3745 6.44644 21.0353 6.44644 15.0601C6.44644 13.3603 7.05961 11.9696 8.03119 10.888C7.8779 10.5018 7.34091 8.90474 8.1848 6.76718C8.1848 6.76718 9.48857 6.35504 12.4283 8.36395C13.6869 8.02344 14.9849 7.85022 16.2887 7.84876C17.5925 7.84876 18.9215 8.02923 20.1488 8.36395C23.0889 6.35504 24.3926 6.76718 24.3926 6.76718C25.2365 8.90474 24.6992 10.5018 24.5459 10.888C25.5431 11.9696 26.131 13.3603 26.131 15.0601C26.131 21.0353 22.5266 22.3486 19.0752 22.7351C19.6378 23.2244 20.1232 24.1514 20.1232 25.6195C20.1232 27.7056 20.0979 29.3798 20.0979 29.8946C20.0979 30.3068 20.3792 30.7964 21.146 30.6418C27.2815 28.5811 31.7042 22.7607 31.7042 15.8844C31.7295 7.28206 24.8016 0.328613 16.2887 0.328613Z"/>
+                            </svg>
+                        </a>
+                        <a target="_blank" class="flex items-center pr-1" href="https://www.linkedin.com/in/bryanjobin/" aria-label="LinkedIn">
+                            <svg width="32" height="31" viewBox="0 0 32 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="fill-gray-700 dark:fill-gray-400" d="M24.8111 0.0717773H6.81139C3.2616 0.0717773 0.382935 2.95044 0.382935 6.50024V24.4999C0.382935 28.0497 3.2616 30.9284 6.81139 30.9284H24.8111C28.3622 30.9284 31.2395 28.0497 31.2395 24.4999V6.50024C31.2395 2.95044 28.3622 0.0717773 24.8111 0.0717773ZM10.6685 24.4999H6.81139V10.3573H10.6685V24.4999ZM8.73993 8.72705C7.49795 8.72705 6.48997 7.71136 6.48997 6.45909C6.48997 5.20683 7.49795 4.19113 8.73993 4.19113C9.98191 4.19113 10.9899 5.20683 10.9899 6.45909C10.9899 7.71136 9.98319 8.72705 8.73993 8.72705ZM26.0968 24.4999H22.2397V17.2949C22.2397 12.9647 17.0969 13.2925 17.0969 17.2949V24.4999H13.2399V10.3573H17.0969V12.6266C18.8918 9.30176 26.0968 9.05619 26.0968 15.8099V24.4999Z"/>
+                            </svg>                        
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sectionModale modal hidden">
+            <div class="z-50 modale shadow-lg h-screen pc:h-auto pc:w-3/5 bg-white dark:bg-gray-950 px-4 pc:mt-40 fixed top-0 left-0 pc:left-20p pc:pb-10">
+                <div class="modaleHeader">
+                    <div class="modaleHeaderHaut flex justify-between pt-2">
+                        <div class="modaleHeaderHautGauche dark:text-white">
+                            <h2 class="modalName text-2xl font-medium">Nom du projet</h2>
+                            <h3 class="modalContext">Contexte de la création du projet</h3>                        
+                        </div>
+                        <div class="modaleHeaderHautDroite flex">
+                            <div class="modaleOutils hidden pr-10">
+                                <h3 class="text-xl dark:text-white">Outils utilisés :</h3>
+                                <ul class="flex gap-x-2">
+                                    <li><img src="/src/img/logos/github_logo.svg" alt=""></li>
+                                    <li><img src="/src/img/logos/github_logo.svg" alt=""></li>
+                                    <li><img src="/src/img/logos/github_logo.svg" alt=""></li>
+                                    <li><img src="/src/img/logos/github_logo.svg" alt=""></li>
+                                    <li><img src="/src/img/logos/github_logo.svg" alt=""></li>
+                                </ul>
+                            </div>
+                            <button class="modalClose"><span class="modaleBtn text-3xl material-symbols-outlined dark:text-white">close</span></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="modaleMain mt-5 flex justify-end flex-col-reverse pc:h-auto pc:grid pc:grid-cols-2">
+                    <div class="pc:col-span-1 pc:row-span-1 mt-4 pc:mt-0">
+                        <div class="modaleMainTexte h-min">
+                            <h3 class="text-xl font-medium dark:text-white">Description du projet</h3>
+                            <div class="modaleMainTexteBoite pc:h-20vw overflow-y-auto pc:mt-2">
+                                <p class="modalDesc pr-4 text-gray-700 dark:text-gray-400">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae delectus neque maiores officia id fugit placeat recusandae magni reiciendis tempore minima expedita nihil aliquid, dolorum odit iusto dolores quisquam totam.
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, impedit consectetur pariatur minus a asperiores sit iste provident doloribus, cumque ea voluptas, expedita numquam rerum dicta harum sunt esse magnam.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo facilis non autem, error voluptatum beatae temporibus repudiandae consequatur ratione nesciunt fugit sint quae quaerat eos nostrum, expedita voluptatibus, quod et.
+                                </p>
+                            </div>
+                        </div>                        
+                    </div>
+                    <div class="pc:row-span-1">
+                        <div class="modaleMainCarrousel border dark:border-white">
+                            <img class="modaleMainImage border border-black dark:border-white" src="" alt="">
+                        </div>
+                        <div class="modaleMainCarrouselCommand flex justify-around pt-2">
+                            <button class="modaleMainCarrouselCommandPrec p-1 border border-black dark:border-white hover:text-white hover:bg-black dark:text-white dark:hover:bg-white dark:hover:text-black hover:transition-all focus:transition-all"><span class="material-symbols-outlined">navigate_before</span></button>
+                            <p class="modaleImgDesc dark:text-white flex justify-center items-center">Image(s) du projet</p>
+                            <button class="modaleMainCarrouselCommandNext p-1 border border-black dark:border-white hover:text-white hover:bg-black dark:text-white dark:hover:bg-white dark:hover:text-black hover:transition-all focus:transition-all"><span class="material-symbols-outlined">navigate_next</span></button>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="modaleFooter h-10 flex justify-center py-4">
+                    <div class="modaleFooterContainer">
+                        <h3 class="dark:text-white">Outils utilisés :</h3>
+                        <div class="outils flex justify-center pb-4">
+
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="z-40 overlay hidden fixed top-0 left-0 w-full h-full bg-black/80"></div>
+    </main>
+</body>
+</html> 
